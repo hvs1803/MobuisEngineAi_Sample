@@ -1,0 +1,326 @@
+.plan{
+    font-family: "DM Sans", sans-serif;
+    padding: 50px 210px;
+
+}
+.plan-job-app{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.plan-job-app h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #0649E7;
+}
+.plan-main-box{
+    /* border: 2px solid blue; */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.plan-main-box .boxes{
+    border: 2px solid #0649E7;
+    height: 95%;
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px 12px;
+}
+.plan-list-items{
+    height: 60vh;
+    /* border: 2px solid red; */
+}
+.boxes h3{
+    font-size: 32px;
+    color: #0649E7;
+}
+.boxes span{
+    font-size: 40px;
+    color: #022183;
+}
+.boxes h4{
+    font-size: 24px;
+    color: #0649E7;
+}
+.boxes hr{
+    width: 90%;
+    margin: 0px auto;
+}
+.boxes h5{
+    /* border: 2px solid black; */
+    color: #fefefe;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #0649E7;
+    width: 40%;
+}
+.list-item-1{
+    /* border: 2px solid red; */
+    height: 20%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 15px;
+}
+.list-item-1 p{
+    font-size: 13px;
+    color: #0649E7;
+    /* padding-right: 30px; */
+}
+.list-item-1 img{
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+.plan-main-box2{
+    /* border: 2px solid orange; */
+    border-radius: 20px;
+    height: 30vh;
+    background-color: #0649E7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.plan-main-box2-first{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 5px;
+    gap: 5px;
+    padding: 10px;
+}
+
+.plan-box2-list{
+    height: auto;
+    /* border: 2px solid orange; */
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box2-list-item{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: auto;
+    display: flex;
+    /* gap: 3px; */
+}
+.box2-list-item img{
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    background-color: green;
+    padding: 2px;
+}
+.box2-list-item p{
+    font-size: 16px;
+    color: #fefefe;
+}
+.plan-main-box2-first h4{
+    font-size: 24px;
+    color: #fefefe;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+.plan-main-box2-first h5{
+    font-size: 15px;
+    color: #fefefe;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+.plan-main-box2-first hr{
+    /* border: 2px solid red; */
+    margin: 5px 0;
+    width: 50%;
+    background-color:#fefefe;
+    height: 1px;
+}
+
+
+.plan-main-box2-second{
+    /* border: 2px solid orange; */
+    width: 30%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:center;
+    gap: 90px;
+    /* padding-right: 50x; */
+}
+.plan-main-box2-second h2{
+    font-size: 18px;
+    color: #fefefe;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+.plan-main-box2-second span{
+    font-size: 40px;
+    color: #fefefe;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+.plan-main-box2-second p{
+    border: 2px solid white;
+    background-color: #fefefe;
+    color: #0649E7;
+    padding: 7px 18px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.plan hr{
+    margin: 5px 0;
+    width: 100%;
+    background-color:rgba(128, 128, 128, 0.53);
+    height: 1px;
+}
+.plan-last-box{
+    /* border: 2px solid orange; */
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+.plan-last-box h2{
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: #022183;
+}
+.plan-last-box p{
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: #0649E7;
+    padding-right: 40%;
+}
+.plan-last-box p span{
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: #022183;
+    padding-right: 40%;
+    font-weight: bold;
+}
+.plan-last-box-boxes{
+    /* border: 2px solid red; */
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.plan-last-box1{
+    border: 2px solid #0649E7;
+    height: 95vh;
+    width: 38%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.plan-last-box1 h3{
+    font-size: 28px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    color:#0649E7;
+}
+.plan-last-box1 p{
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: #0649E7;
+    margin-bottom: 15px;
+    /* padding-right: 40%; */
+}
+.plan-last-box1 h4{
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color:#0649E7;
+    /* padding-right: 40%; */
+    font-weight: bold;
+}
+.plan-last-box1 h4 span{
+    font-size: 42px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color:#0649E7;
+    /* padding-right: 40%; */
+    font-weight: bold;
+}
+
+.plan-last-box-boxes .plan-list-items{
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    height: auto;
+}
+.plan-last-box-boxes .plan-list-items img{
+    height: 15px;
+    width: 15px ;
+    background-color: green;
+    padding: 2px;
+    border-radius: 10px;
+    border: none;
+}
+.plan-last-box-boxes .plan-list-items p{
+    font-size: 13px;
+    color: #0649E7;
+}
+.plan-last-box-boxes .plan-list-items .list-item-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 3px 0;
+}
+.plan-last-box-boxes h5{
+    padding: 10px 18px;
+    background-color: #0649E7;
+    color: #fefefe;
+    border-radius: 20px;
+    width: 35%;
+    font-size: 14px;
+    font-weight: 300;
+    margin: auto 0;
+}
+.plan-list-items-1{
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    height: 60vh;
+}
+.plan-list-items-1 img{
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    padding: 2px;
+    border-radius: 10px;
+}
+.plan-list-items-1 .list-item-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 3px 0;
+}

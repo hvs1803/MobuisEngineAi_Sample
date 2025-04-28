@@ -1,0 +1,175 @@
+*{
+    font-family: "DM Sans", sans-serif;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 50px 210px;
+}
+.test h2{
+    color: #0649E7;
+    font-size: 40px;
+}
+.test-video{
+    /* border: 2px solid green; */
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.test-videos{
+    border: 2px solid #0649E7;
+    height: 360px;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #0649E7;
+    
+}
+.video{
+    /* border: 2px solid red; */
+    height: 180px;
+    border-radius: 20px;
+    background-color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test-videos p{
+    font-size: 16px;
+    color: #FEFEFE;
+    /* border: 2px solid red; */
+    padding: 10px 5px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.arrow-but{
+    /* height: 50px;
+    width: 50px; */
+    height: 90px;
+    /* border: 2px solid red; */
+    border-radius: 0px 0px 20px 20px;
+    /* background-color: #FEFEFE; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+   
+}
+.video-circle{
+    height: 40px;
+    width: 40px;
+    /* border: 2px solid red; */
+    background-color: #0649E7;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 60px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.action-but{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+.action-but .but1{
+    border: 2px solid #0649E7;
+    color: #0649E7;
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    gap: 5px;
+}
+.button-arrow{
+    width: 10px;
+}
+.action-but .but2{
+    background-color: #0649E7;
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    gap: 5px;
+}
+
+.test-2{
+    margin: 20px 170px;
+    padding: 30px 50px;
+    background-color: rgba(127, 255, 212, 0.2);
+    border-radius: 20px;
+}
+.test-2 h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #022183;
+    margin-bottom: 40px;
+}
+.test-2-main-box{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+
+}
+.test-2-box{
+    border: 2px solid blue;
+    border-radius: 20px;
+    height: 300px;
+    width: 28%;
+}
+.test-2-logo{
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 125px;
+}
+.test-2-mid{
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 75px;
+}
+.test-2-end{
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100px;
+}
+.test-2-logo-pic{
+    width: 60px;
+    padding-left: 20px;
+}
+.test-2-mid h4{
+    padding-left: 20px;
+    font-size: 24px;
+    color: #022183;
+}
+.test-2-end p{
+    padding-left: 20px;
+    font-size: 16px;
+    color: #0649E7;
+}

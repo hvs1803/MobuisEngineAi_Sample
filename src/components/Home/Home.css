@@ -1,0 +1,124 @@
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 60px;
+}
+nav .nav-ul{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+nav .nav-ul li{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -5%;
+    color: white;
+}
+.nav-logo img{
+    width: 190px;
+}
+nav .nav-action{
+    font-family: "DM sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 31.5px;
+    /* border: 2px solid black; */
+    color: #022183;
+    background-color: white;
+}
+nav .nav-action:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.home{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 100px; */
+    background-image: url(../../assets/home-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.home .home-left-right{
+    margin: 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 35px;
+    padding: 0px 150px;
+}
+.home-left h1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    line-height: 104%;
+    letter-spacing: -2%;
+    font-size: 80px;
+    color: white;
+}
+span{
+    color: #022183;
+}
+.home-left p{
+    font-size: 18px;
+    padding-right:120px;
+    font-family: "DM sans", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.home-left-button{
+    color: #022183;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 31.5px;
+}
+.home-left-button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+}
+.home-right{
+    /* border: 2px solid red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 70px;
+}
+
+.home-right-div .mobius-book{
+    width: 250px;
+}
+.home-right-div .ellipse{
+    position: absolute;
+    bottom: -10px;
+    right: -48px;
+}
+.home-right-div .smallbook{
+    position: absolute;
+    bottom: 13.5px;
+    right: -18px;
+}
+.home-right-caption{
+    font-size: 13px;
+    color: white;
+    text-align: start;
+    padding: 20px 0;
+}
+.anchor{
+    color: #fefefe;
+}

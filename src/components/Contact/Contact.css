@@ -1,0 +1,38 @@
+.contact{
+    margin: 50px 210px;
+    /* border: 2px solid red; */
+    height: 45vh;
+    border-radius: 20px;
+    background-color: #0649E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.contact h2{
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: #FEFEFE;
+}
+.contact h3{
+    font-size: 32px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: #FEFEFE;
+
+}
+.contact p{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact p img{
+    width: 20px;
+    
+}
